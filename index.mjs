@@ -94,10 +94,10 @@ export default function container_plugin (md, name, options) {
       }
 
       // closing code fence must be at least as long as the opening one
-      if (Math.floor((pos - start) / end_marker_len) < marker_count) { continue; }
+      if (Math.floor((pos - start) / end_marker_len) < marker_count) { continue }
 
       // make sure tail has spaces only
-      pos -= (pos - start) % end_marker_len;
+      pos -= (pos - start) % end_marker_len
       pos = state.skipSpaces(pos)
 
       if (pos < max) { continue }

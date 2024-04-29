@@ -1,8 +1,8 @@
 {
-  "name": "markdown-it-container",
+  "name": "@sage-bionetworks/markdown-it-container",
   "version": "4.0.0",
   "description": "Plugin to create block-level custom containers for markdown-it markdown parser",
-  "repository": "markdown-it/markdown-it-container",
+  "repository": "Sage-Bionetworks/synapse-web-monorepo/packages/markdown-it-container",
   "license": "MIT",
   "keywords": [
     "markdown-it-plugin",
