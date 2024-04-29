@@ -1,3 +1,20 @@
+4.0.0 / 2023-12-05
+------------------
+
+- Rewrite to ESM.
+- Remove `dist/` from repo (build on package publish).
+
+
+3.0.0 / 2020-06-02
+------------------
+
+- Don't assume there are no classes, #26.
+- Added bordering markup to validator params.
+- Fix tests to work with latest `markdown-it`.
+- Dev deps bump.
+- Reorganize configs.
+
+
 2.0.0 / 2015-10-05
 ------------------
 
